@@ -114,6 +114,19 @@ body {
   .file-actions button:hover {
     background-color: #1f6caa;
   }
+
+  .file-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .printing-time {
+    font-size: 14px;
+    color: #555;
+    margin-left: auto;
+  }
+  
   /* Timer Style */
   .deletion-timer {
     font-size: 16px;
@@ -123,7 +136,7 @@ body {
     margin-top: 10px;
   }
   /* Status Style */
-  .file-status {
+  .file-info status {
     font-size: 14px;
     font-weight: bold;
     margin-top: 10px;
@@ -138,6 +151,18 @@ body {
   .status-pending {
     color: #e74c3c;
   }
+
+  .timer {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .status {
+    float: right;
+    font-weight: bold;
+    color: #b34ed1;
+  }
+  
   /* Modal Styles */
   .modal {
     display: none;
